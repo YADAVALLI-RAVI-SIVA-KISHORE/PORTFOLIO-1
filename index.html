@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>YADAVALLI RAVI SIVA KISHORE - Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://www.gstatic.com/firebasejs/9.20.0/firebase-app-compat.js" defer></script>
+  <script src="https://www.gstatic.com/firebasejs/9.20.0/firebase-firestore-compat.js" defer></script>
+  <script src="firebase-config.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div id="background"></div>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="home" class="section card">
+      <h1>YADAVALLI RAVI SIVA KISHORE</h1>
+      <p class="headline">Full Stack Developer</p>
+      <div class="bio-list">
+        <p>Building modern and scalable web solutions for businesses and teams.</p>
+        <p>Expertise in frontend, backend, and cloud technologies.</p>
+      </div>
+    </section>
+    <section id="about" class="section card">
+      <h2>About Me</h2>
+      <p>
+        Enthusiastic developer passionate about problem solving and team collaboration. Proficient with latest web frameworks and cloud platforms, driving successful project outcomes.
+      </p>
+    </section>
+    <section id="skills" class="section card">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>HTML5 & CSS3</li>
+        <li>JavaScript & React</li>
+        <li>Node.js & Express</li>
+        <li>Core Java</li>
+        <li>Python & Flask</li>
+        <li>MySQL & Firebase</li>
+        <li>REST APIs</li>
+        <li>Responsive UI/UX</li>
+      </ul>
+    </section>
+    <section id="projects" class="section card">
+      <h2>Projects</h2>
+      <div class="projects-container">
+        <div class="project-card">
+          <h3>Portfolio Site</h3>
+          <p>Professional portfolio app with modern aesthetics and dynamic content updates.</p>
+          <p><strong>Stack:</strong> HTML, CSS, JS, Firebase</p>
+        </div>
+        <div class="project-card">
+          <h3>Analytics Dashboard</h3>
+          <p>Live dashboard for tracking analytics, admin roles, and chart visualizations.</p>
+          <p><strong>Stack:</strong> React, Node.js, MySQL</p>
+        </div>
+        <div class="project-card">
+          <h3>Event Registration Platform</h3>
+          <p>Full-featured platform for event signups and real-time notifications.</p>
+          <p><strong>Stack:</strong> Python, Flask, Firebase</p>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="section card">
+      <h2>Contact</h2>
+      <div class="contact-info">
+        <p><strong>Email:</strong> <a href="mailto:yrsk.kishore@gmail.com">yrsk.kishore@gmail.com</a></p>
+        <p><strong>Phone:</strong> 7075824124</p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ravi-siva-kishore-yadavalli-987049357" target="_blank">linkedin.com/in/ravi-siva-kishore-yadavalli</a></p>
+        <p><strong>GitHub:</strong> <a href="https://GitHub.com/YADAVALLI-RAVI-SIVA-KISHORE" target="_blank">github.com/YADAVALLI-RAVI-SIVA-KISHORE</a></p>
+      </div>
+      <form id="contact-form">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn radium-btn">Send</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 YADAVALLI RAVI SIVA KISHORE. All rights reserved.</p>
+  </footer>
+</body>
+</html>
